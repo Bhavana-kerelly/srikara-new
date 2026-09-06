@@ -1,0 +1,52 @@
+import { assetUrl } from '@/lib/assetUrl'
+export const miyapur = {
+  slug: 'miyapur',
+  title: 'Miyapur',
+  subtitle: 'Advanced Multi-Specialty Hospital',
+  tagline: 'Precision Healthcare & Clinical Excellence',
+  heroHeadline: 'World-Class Healthcare in Miyapur',
+  heroHighlight: 'Precision Robotic Care.',
+  description: "Miyapur's advanced multi-specialty healthcare center, combining robotic joint replacement, advanced diagnostics, and 24/7 emergency care.",
+  heroImage: assetUrl('images/miyapur.jpg'),
+  heroStats: [
+    { value: '500+', label: 'Successful Procedures' },
+    { value: '24/7', label: 'Emergency & Trauma' },
+  ],
+  doctor: {
+    name: 'Dr. Kota Adarsh',
+    title: 'Consultant Orthopaedic & Trauma Surgeon',
+    surgeries: '5,000+',
+    experience: '10+',
+    successRate: '99%',
+    bio: 'Dr. Kota Adarsh is a skilled Orthopaedic surgeon at Srikara Hospitals Miyapur, specializing in complex trauma, arthroscopy, and joint reconstruction.',
+    image: 'doctors/kota-adarsh.png',
+  },
+  specialtiesCards: [
+    { icon: '🦴', title: 'Orthopaedics', description: 'Robotic joint replacement, arthroscopy, and complex trauma care.' },
+    { icon: '🩺', title: 'General Medicine', description: 'Comprehensive acute, chronic, and preventive internal medicine.' },
+    { icon: '🌸', title: 'Gynaecology', description: 'Complete maternity, high-risk pregnancy, and laparoscopic gyn surgery.' },
+    { icon: '🔬', title: 'General & Laparoscopic', description: 'Minimally invasive laparoscopic and general surgical procedures.' },
+    { icon: '🩸', title: 'Vascular & Interventional', description: 'Advanced catheter-guided endovascular treatments.' },
+    { icon: '🧠', title: 'Neurosurgery', description: 'Advanced brain and minimally invasive spine surgeries.' },
+    { icon: '👶', title: 'Pediatrics', description: 'Dedicated neonatal, child care, and immunization services.' },
+    { icon: '🎗️', title: 'Surgical Oncology', description: 'Comprehensive surgical cancer care and tumor resections.' },
+  ],
+  highlights: [
+    '24/7 Emergency, Trauma & Critical Care Units',
+    'Advanced Robotic Joint Replacement and Orthopedic Center',
+    'Multi-specialty OPD and Inpatient Care under one roof',
+  ],
+  infrastructure: [
+    { title: 'Modular Operation Theaters', desc: 'Ultra-clean laminar airflow surgical suites for infection-free surgeries.', gradient: 'from-primary/90' },
+    { title: 'Advanced Diagnostic & Imaging Suite', desc: 'Cutting-edge digital pathology and high-resolution imaging.', gradient: 'from-secondary/90' },
+  ],
+  address: 'Main Road, Miyapur, Hyderabad - 500 049. India.',
+  phone: '040-68324805',
+  emergencyPhone: '040-68324805',
+  branchLogo: 'https://i.ibb.co/CK9bqmXK/sri-logo.jpg',
+  googleRating: 4.8,
+  googleReviewCount: '12.1K+',
+  googleMapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.322!2d78.345474!3d17.492120!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9267b0771b13%3A0x395062720fe10d75!2sSrikara%20Hospitals!5e0!3m2!1sen!2sin!4v1712361734632!5m2!1sen!2sin",
+  googleSiteVerification: "aJ7s7IEdrnusUAaJjNhci85QlNgUWy4l4GEULgG775Q",
+}
+
